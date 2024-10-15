@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  BankManager
+//  BankManagerUIApp
 //
-//  Created by ChanHyuc on 10/3/24.
+//  Created by ChanHyuc on 10/15/24.
 //
 
 import UIKit

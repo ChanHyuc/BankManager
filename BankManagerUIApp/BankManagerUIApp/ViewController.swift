@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  BankManager
-//
-//  Created by ChanHyuc on 10/3/24.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -17,4 +10,6 @@ class ViewController: UIViewController {
     private func configureUI() {
         view.backgroundColor = .systemBackground
     }
+
 }
+

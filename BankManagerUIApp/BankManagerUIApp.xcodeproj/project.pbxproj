@@ -6,33 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		712FF3EB2CBE5F910080E589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712FF3E42CBE5F910080E589 /* Assets.xcassets */; };
+		712FF3ED2CBE5F910080E589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712FF3E72CBE5F910080E589 /* LaunchScreen.storyboard */; };
+		712FF3EE2CBE5F910080E589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF3E32CBE5F910080E589 /* AppDelegate.swift */; };
+		712FF3EF2CBE5F910080E589 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF3E82CBE5F910080E589 /* SceneDelegate.swift */; };
+		712FF3F02CBE5F910080E589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF3E92CBE5F910080E589 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		7172ACB02CAEB8F300F7DEAE /* BankManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		712FF3CB2CBE5F160080E589 /* BankManagerUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankManagerUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		712FF3E32CBE5F910080E589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		712FF3E42CBE5F910080E589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		712FF3E52CBE5F910080E589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		712FF3E62CBE5F910080E589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		712FF3E82CBE5F910080E589 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		712FF3E92CBE5F910080E589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7172ACC22CAEB8F500F7DEAE /* Exceptions for "BankManager" folder in "BankManager" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7172ACAF2CAEB8F300F7DEAE /* BankManager */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7172ACB22CAEB8F300F7DEAE /* BankManager */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7172ACC22CAEB8F500F7DEAE /* Exceptions for "BankManager" folder in "BankManager" target */,
-			);
-			path = BankManager;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		7172ACAD2CAEB8F300F7DEAE /* Frameworks */ = {
+		712FF3C82CBE5F160080E589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,103 +35,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7172ACA72CAEB8F300F7DEAE = {
+		712FF3C22CBE5F160080E589 = {
 			isa = PBXGroup;
 			children = (
-				7172ACB22CAEB8F300F7DEAE /* BankManager */,
-				7172ACB12CAEB8F300F7DEAE /* Products */,
+				712FF3EA2CBE5F910080E589 /* BankManagerUIApp */,
+				712FF3CC2CBE5F160080E589 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7172ACB12CAEB8F300F7DEAE /* Products */ = {
+		712FF3CC2CBE5F160080E589 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7172ACB02CAEB8F300F7DEAE /* BankManager.app */,
+				712FF3CB2CBE5F160080E589 /* BankManagerUIApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		712FF3EA2CBE5F910080E589 /* BankManagerUIApp */ = {
+			isa = PBXGroup;
+			children = (
+				712FF3E32CBE5F910080E589 /* AppDelegate.swift */,
+				712FF3E42CBE5F910080E589 /* Assets.xcassets */,
+				712FF3E52CBE5F910080E589 /* Info.plist */,
+				712FF3E72CBE5F910080E589 /* LaunchScreen.storyboard */,
+				712FF3E82CBE5F910080E589 /* SceneDelegate.swift */,
+				712FF3E92CBE5F910080E589 /* ViewController.swift */,
+			);
+			path = BankManagerUIApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7172ACAF2CAEB8F300F7DEAE /* BankManager */ = {
+		712FF3CA2CBE5F160080E589 /* BankManagerUIApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7172ACC32CAEB8F500F7DEAE /* Build configuration list for PBXNativeTarget "BankManager" */;
+			buildConfigurationList = 712FF3DE2CBE5F180080E589 /* Build configuration list for PBXNativeTarget "BankManagerUIApp" */;
 			buildPhases = (
-				7172ACAC2CAEB8F300F7DEAE /* Sources */,
-				7172ACAD2CAEB8F300F7DEAE /* Frameworks */,
-				7172ACAE2CAEB8F300F7DEAE /* Resources */,
+				712FF3C72CBE5F160080E589 /* Sources */,
+				712FF3C82CBE5F160080E589 /* Frameworks */,
+				712FF3C92CBE5F160080E589 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				7172ACB22CAEB8F300F7DEAE /* BankManager */,
-			);
-			name = BankManager;
+			name = BankManagerUIApp;
 			packageProductDependencies = (
 			);
-			productName = BankManager;
-			productReference = 7172ACB02CAEB8F300F7DEAE /* BankManager.app */;
+			productName = BankManagerUIApp;
+			productReference = 712FF3CB2CBE5F160080E589 /* BankManagerUIApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7172ACA82CAEB8F300F7DEAE /* Project object */ = {
+		712FF3C32CBE5F160080E589 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					7172ACAF2CAEB8F300F7DEAE = {
+					712FF3CA2CBE5F160080E589 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 7172ACAB2CAEB8F300F7DEAE /* Build configuration list for PBXProject "BankManager" */;
+			buildConfigurationList = 712FF3C62CBE5F160080E589 /* Build configuration list for PBXProject "BankManagerUIApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 7172ACA72CAEB8F300F7DEAE;
+			mainGroup = 712FF3C22CBE5F160080E589;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 7172ACB12CAEB8F300F7DEAE /* Products */;
+			productRefGroup = 712FF3CC2CBE5F160080E589 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7172ACAF2CAEB8F300F7DEAE /* BankManager */,
+				712FF3CA2CBE5F160080E589 /* BankManagerUIApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7172ACAE2CAEB8F300F7DEAE /* Resources */ = {
+		712FF3C92CBE5F160080E589 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712FF3EB2CBE5F910080E589 /* Assets.xcassets in Resources */,
+				712FF3ED2CBE5F910080E589 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7172ACAC2CAEB8F300F7DEAE /* Sources */ = {
+		712FF3C72CBE5F160080E589 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712FF3EE2CBE5F910080E589 /* AppDelegate.swift in Sources */,
+				712FF3EF2CBE5F910080E589 /* SceneDelegate.swift in Sources */,
+				712FF3F02CBE5F910080E589 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		712FF3E72CBE5F910080E589 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				712FF3E62CBE5F910080E589 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		7172ACC42CAEB8F500F7DEAE /* Debug */ = {
+		712FF3DF2CBE5F180080E589 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -147,17 +166,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H8AWFKL48X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BankManager/Info.plist;
+				INFOPLIST_FILE = BankManagerUIApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BankManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BankManagerUIApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -165,7 +185,7 @@
 			};
 			name = Debug;
 		};
-		7172ACC52CAEB8F500F7DEAE /* Release */ = {
+		712FF3E02CBE5F180080E589 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -174,17 +194,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H8AWFKL48X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BankManager/Info.plist;
+				INFOPLIST_FILE = BankManagerUIApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BankManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BankManagerUIApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -192,7 +213,7 @@
 			};
 			name = Release;
 		};
-		7172ACC62CAEB8F500F7DEAE /* Debug */ = {
+		712FF3E12CBE5F180080E589 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +276,7 @@
 			};
 			name = Debug;
 		};
-		7172ACC72CAEB8F500F7DEAE /* Release */ = {
+		712FF3E22CBE5F180080E589 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,25 +335,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7172ACAB2CAEB8F300F7DEAE /* Build configuration list for PBXProject "BankManager" */ = {
+		712FF3C62CBE5F160080E589 /* Build configuration list for PBXProject "BankManagerUIApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7172ACC62CAEB8F500F7DEAE /* Debug */,
-				7172ACC72CAEB8F500F7DEAE /* Release */,
+				712FF3E12CBE5F180080E589 /* Debug */,
+				712FF3E22CBE5F180080E589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7172ACC32CAEB8F500F7DEAE /* Build configuration list for PBXNativeTarget "BankManager" */ = {
+		712FF3DE2CBE5F180080E589 /* Build configuration list for PBXNativeTarget "BankManagerUIApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7172ACC42CAEB8F500F7DEAE /* Debug */,
-				7172ACC52CAEB8F500F7DEAE /* Release */,
+				712FF3DF2CBE5F180080E589 /* Debug */,
+				712FF3E02CBE5F180080E589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7172ACA82CAEB8F300F7DEAE /* Project object */;
+	rootObject = 712FF3C32CBE5F160080E589 /* Project object */;
 }

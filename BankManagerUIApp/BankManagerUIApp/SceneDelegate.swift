@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  BankManager
-//
-//  Created by ChanHyuc on 10/3/24.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
