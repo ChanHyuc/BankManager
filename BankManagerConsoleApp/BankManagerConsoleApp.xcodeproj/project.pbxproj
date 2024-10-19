@@ -11,6 +11,7 @@
 		712FF3FB2CBE60110080E589 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF3F82CBE60110080E589 /* main.swift */; };
 		712FF3FD2CBE61A00080E589 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF3FC2CBE61A00080E589 /* Business.swift */; };
 		712FF40B2CBE65580080E589 /* QueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF4092CBE65580080E589 /* QueueTest.swift */; };
+		713289C92CC3BF96001949BE /* Custmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713289C82CC3BF96001949BE /* Custmer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 		712FF3FC2CBE61A00080E589 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		712FF4022CBE65500080E589 /* QueueTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		712FF4092CBE65580080E589 /* QueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTest.swift; sourceTree = "<group>"; };
+		713289C82CC3BF96001949BE /* Custmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custmer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				712FF3F62CBE60110080E589 /* LinkedList.swift */,
+				713289C82CC3BF96001949BE /* Custmer.swift */,
 				712FF3FC2CBE61A00080E589 /* Business.swift */,
 			);
 			path = Model;
@@ -193,6 +196,7 @@
 				712FF3FD2CBE61A00080E589 /* Business.swift in Sources */,
 				712FF3FA2CBE60110080E589 /* LinkedList.swift in Sources */,
 				712FF3FB2CBE60110080E589 /* main.swift in Sources */,
+				713289C92CC3BF96001949BE /* Custmer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
