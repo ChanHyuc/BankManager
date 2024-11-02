@@ -56,3 +56,4 @@ struct LinkedList<T> {
         return count == 0
     }
 }
+
