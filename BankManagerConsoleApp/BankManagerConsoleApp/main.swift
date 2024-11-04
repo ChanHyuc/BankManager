@@ -4,6 +4,7 @@ final class MainConsole {
     var linkedList = LinkedList<Any>()
     var serviceTime = 0.0
     var customerCount = Int.random(in: 10...30)
+    let bankManager = 3
     
     func run() {
         while true {
