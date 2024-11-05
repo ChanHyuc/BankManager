@@ -1,35 +1,30 @@
 import Foundation
 
 final class MainConsole {
-    var linkedList = LinkedList<Any>()
-    var serviceTime = 0.0
-    var customerCount = Int.random(in: 10...30)
-    let bankManager = 3
+    var linkedList: LinkedList = LinkedList<Any>()
+    var serviceTime: Double = 0.0
     
     func run() {
         while true {
-            print("""
-      1: 은행 개점
-      2: 종료
-      입력 :
-      """, terminator: " ")
+            self.printMenu()
             let input = readLine()!
             
-            if input == "1" {
-                for num in 1...customerCount {
-                    linkedList.enqueue(data: num)
+                if input == "1" {
+                    for num in 1...self.customerCount {
+                        self.linkedList.enqueue(data: num)
+                    }
+                    
+                    DispatchQueue.global().asyncAfter(deadline: .now() + self.serviceTime) {
+                        self.processCustomers()
+                    }
                 }
-                
-                DispatchQueue.global().asyncAfter(deadline: .now() + serviceTime) {
-                    self.processCustomers()
-                }
-            }
             
             if input == "2" {
                 break
             }
             
         }
+        
     }
     
     private func processCustomers() {
@@ -49,6 +44,14 @@ final class MainConsole {
         DispatchQueue.global().asyncAfter(deadline: .now() + serviceTime) {
             print("업무가 마감되었습니다. 오늘 업무를 처리한 고객은 총 \(self.customerCount)명이며, 총 업무시간은 \(String(format: "%.2f", self.serviceTime)) 초 입니다.")
         }
+    }
+    
+    private func printMenu() {
+        print("""
+        1: 은행 개점
+        2: 종료
+        입력 :
+        """, terminator: " ")
     }
     
 }

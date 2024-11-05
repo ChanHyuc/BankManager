@@ -16,7 +16,7 @@ struct LinkedList<T> {
     private var count: Int = 0
     
     mutating func enqueue(data: T) {
-        let node = Node(data: data)
+        let node: Node<T> = Node(data: data)
         
         if head == nil {
             head = node
@@ -30,7 +30,7 @@ struct LinkedList<T> {
     }
     
     mutating func dequeue() -> T? {
-        guard let node = head else { return nil }
+        guard let node: Node<T> = head else { return nil }
         
         head = head?.next
         
