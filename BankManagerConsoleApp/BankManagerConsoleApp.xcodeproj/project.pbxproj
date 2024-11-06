@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7113067D2CDBB7E30066FE65 /* StubCustomerCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7113067C2CDBB7E30066FE65 /* StubCustomerCount.swift */; };
+		711306802CDBB90F0066FE65 /* CustomerCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F383AF2CDA17E600687D3F /* CustomerCount.swift */; };
 		712FF3FA2CBE60110080E589 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF3F62CBE60110080E589 /* LinkedList.swift */; };
 		712FF3FB2CBE60110080E589 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF3F82CBE60110080E589 /* main.swift */; };
 		712FF40B2CBE65580080E589 /* QueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF4092CBE65580080E589 /* QueueTest.swift */; };
@@ -28,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7113067C2CDBB7E30066FE65 /* StubCustomerCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubCustomerCount.swift; sourceTree = "<group>"; };
 		712FF3B62CBE5E980080E589 /* BankManagerConsoleApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BankManagerConsoleApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		712FF3F62CBE60110080E589 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		712FF3F82CBE60110080E589 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -98,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				712FF4092CBE65580080E589 /* QueueTest.swift */,
+				7113067C2CDBB7E30066FE65 /* StubCustomerCount.swift */,
 			);
 			path = QueueTest;
 			sourceTree = "<group>";
@@ -208,6 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7113067D2CDBB7E30066FE65 /* StubCustomerCount.swift in Sources */,
+				711306802CDBB90F0066FE65 /* CustomerCount.swift in Sources */,
 				712FF40B2CBE65580080E589 /* QueueTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
