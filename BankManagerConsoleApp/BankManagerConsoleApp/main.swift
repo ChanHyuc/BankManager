@@ -10,22 +10,26 @@ final class MainConsole: CustomerCountProtocol {
     
     func run() {
         while true {
+            
             self.printMenu()
             let input = readLine()!
             
-                if input == "1" {
-                    for num in 1...createRandomCustomerCount() {
-                        self.linkedList.enqueue(data: num)
-                    }
-                    
-                    DispatchQueue.global().asyncAfter(deadline: .now() + self.serviceTime) {
-                        self.processCustomers()
-                    }
+            switch input {
+            case "1":
+                for num in 1...createRandomCustomerCount() {
+                    self.linkedList.enqueue(data: num)
                 }
-            
-            if input == "2" {
+                
+                DispatchQueue.global().asyncAfter(deadline: .now() + self.serviceTime) {
+                    self.processCustomers()
+                }
+            case "2":
                 break
+            default:
+                let message = "잘못 입력하셨습니다."
+                print(message)
             }
+                
             
         }
         
@@ -49,6 +53,8 @@ final class MainConsole: CustomerCountProtocol {
             print("업무가 마감되었습니다. 오늘 업무를 처리한 고객은 총 \(self.createRandomCustomerCount())명이며, 총 업무시간은 \(String(format: "%.2f", self.serviceTime)) 초 입니다.")
         }
     }
+    
+    
     
     private func printMenu() {
         print("""
