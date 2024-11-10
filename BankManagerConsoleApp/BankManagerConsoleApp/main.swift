@@ -16,13 +16,7 @@ final class MainConsole: CustomerCountProtocol {
             
             switch input {
             case "1":
-                for num in 1...createRandomCustomerCount() {
-                    self.linkedList.enqueue(data: num)
-                }
-                
-                DispatchQueue.global().asyncAfter(deadline: .now() + self.serviceTime) {
-                    self.processCustomers()
-                }
+                openBank()
             case "2":
                 break
             default:
@@ -33,6 +27,16 @@ final class MainConsole: CustomerCountProtocol {
             
         }
         
+    }
+    
+    private func openBank() {
+        for num in 1...createRandomCustomerCount() {
+            self.linkedList.enqueue(data: num)
+        }
+        
+        DispatchQueue.global().asyncAfter(deadline: .now() + self.serviceTime) {
+            self.processCustomers()
+        }
     }
     
     private func processCustomers() {
