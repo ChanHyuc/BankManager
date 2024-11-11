@@ -9,8 +9,12 @@ import Testing
 
 struct QueueTest {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-    }
+    // given
+    
+    // when
+    
+    // then
+    
+    
 
 }

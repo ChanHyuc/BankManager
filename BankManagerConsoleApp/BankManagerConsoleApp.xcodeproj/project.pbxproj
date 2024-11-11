@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7113067D2CDBB7E30066FE65 /* StubCustomerCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7113067C2CDBB7E30066FE65 /* StubCustomerCount.swift */; };
 		711306802CDBB90F0066FE65 /* CustomerCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F383AF2CDA17E600687D3F /* CustomerCount.swift */; };
 		712FF3FA2CBE60110080E589 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF3F62CBE60110080E589 /* LinkedList.swift */; };
 		712FF3FB2CBE60110080E589 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF3F82CBE60110080E589 /* main.swift */; };
 		712FF40B2CBE65580080E589 /* QueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712FF4092CBE65580080E589 /* QueueTest.swift */; };
 		71C5DEC72CD8F55D006F46B0 /* BusinessType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C5DEC62CD8F55D006F46B0 /* BusinessType.swift */; };
-		71E9073F2CDE3C5C00BDFD3A /* MockTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E9073E2CDE3C5C00BDFD3A /* MockTest.swift */; };
 		71F383B02CDA17E600687D3F /* CustomerCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F383AF2CDA17E600687D3F /* CustomerCount.swift */; };
 		71F383B22CDA1A6C00687D3F /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F383B12CDA1A6C00687D3F /* Customer.swift */; };
 /* End PBXBuildFile section */
@@ -31,14 +29,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7113067C2CDBB7E30066FE65 /* StubCustomerCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubCustomerCount.swift; sourceTree = "<group>"; };
 		712FF3B62CBE5E980080E589 /* BankManagerConsoleApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BankManagerConsoleApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		712FF3F62CBE60110080E589 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		712FF3F82CBE60110080E589 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		712FF4022CBE65500080E589 /* QueueTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		712FF4092CBE65580080E589 /* QueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTest.swift; sourceTree = "<group>"; };
 		71C5DEC62CD8F55D006F46B0 /* BusinessType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessType.swift; sourceTree = "<group>"; };
-		71E9073E2CDE3C5C00BDFD3A /* MockTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTest.swift; sourceTree = "<group>"; };
 		71F383AF2CDA17E600687D3F /* CustomerCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCount.swift; sourceTree = "<group>"; };
 		71F383B12CDA1A6C00687D3F /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				712FF4092CBE65580080E589 /* QueueTest.swift */,
-				7113067C2CDBB7E30066FE65 /* StubCustomerCount.swift */,
-				71E9073E2CDE3C5C00BDFD3A /* MockTest.swift */,
 			);
 			path = QueueTest;
 			sourceTree = "<group>";
@@ -215,10 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7113067D2CDBB7E30066FE65 /* StubCustomerCount.swift in Sources */,
 				711306802CDBB90F0066FE65 /* CustomerCount.swift in Sources */,
 				712FF40B2CBE65580080E589 /* QueueTest.swift in Sources */,
-				71E9073F2CDE3C5C00BDFD3A /* MockTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
